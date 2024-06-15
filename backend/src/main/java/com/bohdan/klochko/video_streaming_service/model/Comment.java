@@ -18,12 +18,4 @@ public class Comment {
     private String authorId;
     private AtomicInteger likeCount = new AtomicInteger(0);
     private AtomicInteger disLikeCount = new AtomicInteger(0);
-
-    public int likeCount() {
-        return likeCount.get();
-    }
-
-    public int disLikeCount() {
-        return disLikeCount.get();
-    }
 }

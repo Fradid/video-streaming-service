@@ -42,9 +42,10 @@ import { FeaturedComponent } from './featured/featured.component';
 import { VideoCardComponent } from './video-card/video-card.component';
 import { CallbackComponent } from './callback/callback.component';
 import {MatMenuModule} from "@angular/material/menu";
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
-  declarations: [AppComponent, UploadVideoComponent, HeaderComponent, SaveVideoDetailsComponent, VideoPlayerComponent, VideoDetailComponent, HomeComponent, HistoryComponent, SubscriptionsComponent, LikedVideosComponent, SidebarComponent, FeaturedComponent, VideoCardComponent, CallbackComponent],
+  declarations: [AppComponent, UploadVideoComponent, HeaderComponent, SaveVideoDetailsComponent, VideoPlayerComponent, VideoDetailComponent, HomeComponent, HistoryComponent, SubscriptionsComponent, LikedVideosComponent, SidebarComponent, FeaturedComponent, VideoCardComponent, CallbackComponent, CommentsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

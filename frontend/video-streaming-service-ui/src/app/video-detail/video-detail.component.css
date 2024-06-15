@@ -8,7 +8,9 @@
 }
 
 .subtitles{
+	display: flex;
   justify-content: space-between;
+	padding-right: 10px;
 }
 
 mat-card[ng-reflect-router-link] {

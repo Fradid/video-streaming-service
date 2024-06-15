@@ -1,6 +1,7 @@
 package com.bohdan.klochko.video_streaming_service.service;
 
 import com.bohdan.klochko.video_streaming_service.model.User;
+import com.bohdan.klochko.video_streaming_service.model.Video;
 import com.bohdan.klochko.video_streaming_service.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
